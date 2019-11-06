@@ -1,0 +1,1 @@
+# Arrays and Hashes are “things” (objects) that are used to store other things, and they’re super useful, and widely used.

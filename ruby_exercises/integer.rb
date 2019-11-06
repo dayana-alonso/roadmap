@@ -26,5 +26,6 @@
 # number = 2 + 3 * 4
 # puts number
 
-number = 4 + 2 * 4
-puts number
+# number = 4 + 2 * 4
+# puts number
+
