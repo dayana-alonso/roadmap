@@ -1,16 +1,11 @@
 class Car
-  attr_reader :engine, :fuel 
+  attr_reader :engine
 
-  def initialize(engine, fuel)
+  def initialize(engine)
     @engine = engine
-    @fuel = fuel
   end
 
   def engine_capacity
-    "#{engine} pure horsepower"
-  end
-
-  def gas
-  	"#{fuel} accepted"
+    engine.capacity
   end
 end

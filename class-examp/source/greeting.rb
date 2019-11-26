@@ -1,7 +1,6 @@
 class Greeting
 	attr_reader :person, :call, :food
 	
-
 	def initialize(person)
 		@person = person
 	end

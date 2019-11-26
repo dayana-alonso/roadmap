@@ -1,5 +1,5 @@
-require './christmas'
-require './holidayspirit'
+require './xmas_example/christmas'
+require './xmas_example/holidayspirit'
 
 
 christmas = Christmas.new('Christmas Tree', 'Mulled Wine', 'Holiday Sprit')
