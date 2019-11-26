@@ -8,4 +8,10 @@ class Car
   def engine_capacity
     engine.capacity
   end
+
+  def rev_engine
+  	engine.make_sound
+  end
+
 end
+

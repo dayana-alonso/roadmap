@@ -2,12 +2,12 @@ require './car_example/car'
 require './car_example/engine'
 
 
-engine = Engine.new('2000')
+engine = Engine.new('2000', 'Vroom')
 car = Car.new(engine)
 
 
 puts car.engine_capacity
-
+puts car.rev_engine
 
 
 # exercise 
