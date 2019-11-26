@@ -1,7 +1,10 @@
 require "./dcamera/camera"	
-require "./dcamera/digital_camera"
+require "./dcamera/digital"
 
-camera = Camera.new('Say', ' Smile')
-puts camera.load
-puts camera.pic
+camera = Camera.new('Say', 'Smile')
+digital = Digital.new(camera)
 
+puts digital.error_pic
+puts digital.batteries
+
+puts camera.take_a_pic

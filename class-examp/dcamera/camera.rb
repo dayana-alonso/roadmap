@@ -5,6 +5,10 @@ class Camera
 		@load	= load
 		@pic = pic
 	end
+
+	def take_a_pic
+		"#{load} #{pic}"
+	end
 end
 
 
