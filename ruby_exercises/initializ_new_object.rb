@@ -20,9 +20,12 @@ class GoodDog
 		"Voff Arf! Voff"
 	end
 
-
+	def get_name
+		@name
+		
+	end
 	def speak
-		"Voff Arf! Voff"
+		"#{@name} says Voff Arf! Voff"
 	end
 end
 
@@ -30,3 +33,4 @@ fido = GoodDog.new("fido")
 sparky =GoodDog.new('Sparky')
 
 puts sparky.speak
+puts fido.get_name
