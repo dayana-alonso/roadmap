@@ -1,5 +1,5 @@
 class Child < Parent
   def say(message)
-    super
+    super()
   end
 end

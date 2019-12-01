@@ -1,14 +1,14 @@
 class Parent
-  def say(message)
-    p message
+  def say
+    p "Im the parent"
   end
 end
 
 class Child < Parent
   def say(message)
-    super
+    super()
   end
 end
 
-puts Child.new.say('Hi Rubyist!') 
+Child.new.say('Hi Rubyist!') 
 # => "Hi Rubyist!"
