@@ -4,7 +4,7 @@ class Animal
   end
 end
 
-class GoodDog < Animal
+class GoodDog < Animal 
   attr_accessor :name
 
   def initialize(n)
@@ -16,7 +16,7 @@ class GoodDog < Animal
   end
 end
 
-class Cat < Animal
+class Cat < Animal #<= inherit from Animal
 end
 
 sparky = GoodDog.new("Sparky")

@@ -4,7 +4,7 @@ class Parent
   end
 end
 
-class Child < Parent
+class Child < Parent #<= inherit
   def say(message)
     super()
   end

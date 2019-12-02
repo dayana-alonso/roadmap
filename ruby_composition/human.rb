@@ -3,7 +3,7 @@ class Human
 		@movement = Movement.new
 	end
 
-	def move
+	def crawl
 		@movement.step
 	end
 end

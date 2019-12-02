@@ -1,5 +1,3 @@
-example bike
-
 class Bicycle  
   attr_reader :gears, :wheels, :seats  
   def initialize(gears = 1)  
@@ -21,6 +19,7 @@ t = Tandem.new(2)
 puts t.gears  
 puts t.wheels  
 puts t.seats  
+
 b = Bicycle.new  
 puts b.gears  
 puts b.wheels  

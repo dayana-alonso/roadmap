@@ -3,7 +3,7 @@ class Racoon
 		@movement = Movement.new
 	end
 
-	def move
+	def step
 		@movement.crawl
 	end
 end
